@@ -10,6 +10,8 @@ describe('LocaleStore', function() {
 
   it('changes locales', function() {
     expect(LocaleStore.getLocale()).toEqual('en_US');
+    LocaleActions.changeLocale('vi_VN');
+    expect(LocaleStore.getLocale()).toEqual('vi_VN');
     LocaleActions.changeLocale('ja_JP');
     expect(LocaleStore.getLocale()).toEqual('ja_JP');
   });

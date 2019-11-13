@@ -11,6 +11,7 @@ var DEFAULT_LOCALE = 'en_US';
 // and our supported locales
 var langLocaleMap = {
   en: 'en_US',
+  vi: 'vi_VN',
   zh: 'zh_CN',
   ja: 'ja',
   ko: 'ko',

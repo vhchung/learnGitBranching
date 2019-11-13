@@ -14,7 +14,8 @@ exports.strings = {
     'fr_FR': 'Félicitations, vous avez réussi le dernier niveau !',
     'ru_RU': 'Вау! Вы прошли последний уровень, отлично!',
     'uk': 'Вау! Ти пройшов останній рівень, круто!',
-    'ko': '와우! 마지막 레벨까지 마쳤습니다. 멋지네요!'
+    'ko': '와우! 마지막 레벨까지 마쳤습니다. 멋지네요!',
+    'vi_VN': 'Wow! Bạn đã hoàn thành cấp độ cuối cùng, tuyệt vời!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'finish-dialog-next': {
@@ -31,7 +32,8 @@ exports.strings = {
     'fr_FR': 'Voulez-vous passer à *"{nextLevel}"*, le prochain niveau ?',
     'ru_RU': 'Хотите перейти на следующий уровень: *"{nextLevel}"*?',
     'uk': 'Хочеш перейти на наступний рівень -- *"{nextLevel}"*?',
-    'ko': '다음 레벨로 넘어갈까요? 레벨 *"{nextLevel}"*'
+    'ko': '다음 레벨로 넘어갈까요? 레벨 *"{nextLevel}"*',
+    'vi_VN': 'Bạn có muốn chuyển sang cấp độ tiếp theo (*"{nextLevel}"*) không?'
   },
   ///////////////////////////////////////////////////////////////////////////
   'finish-dialog-win': {
@@ -48,7 +50,8 @@ exports.strings = {
     'fr_FR': 'Fabuleux ! Votre solution a égalé ou surpassé notre solution.',
     'ru_RU': 'Отлично! Ваше решение соответствует или превосходит наше.',
     'uk': 'Чудово! Твій розв’язок на рівні або кращий від нашого.',
-    'ko': '멋져요! 우리의 해답과 일치하거나 우리보다 좀 더 나은 해답입니다.'
+    'ko': '멋져요! 우리의 해답과 일치하거나 우리보다 좀 더 나은 해답입니다.',
+    'vi_VN': 'Tuyệt vời! Bạn đã hoàn thành cấp độ này rồi!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'finish-dialog-lose': {
@@ -65,7 +68,8 @@ exports.strings = {
     'fr_FR': 'Voyons si vous pouvez descendre à {best} :D',
     'ru_RU': 'Попробуйте, может вы сможете уложиться в {best} : D',
     'uk': 'Спробуй, можливо ти зможеш вкластися в {best} кроків :D',
-    'ko': '{best}회로 줄일 수 있다면 해보세요. :D'
+    'ko': '{best}회로 줄일 수 있다면 해보세요. :D',
+    'vi_VN': 'Thử xem bạn có giảm bớt số câu lệnh xuống {best} được không nào :D'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-prune-tree': {
@@ -81,7 +85,8 @@ exports.strings = {
     'de_DE': 'Achtung! Mercurial macht aggressive Garbage Collection und muss daher deinen Baum reduzieren',
     'ru_RU': 'Внимание! Mercurial использует агрессивный сборщик мусора и обрезает ваше дерево',
     'uk': 'Увага! Mercurial агресивно збирає сміття й може обрізати твоє дерево ',
-    'ko': '주의! Mercurial은 공격적으로 가비지 컬렉션을 수행하므로 트리를 정리할 필요가 있습니다.'
+    'ko': '주의! Mercurial은 공격적으로 가비지 컬렉션을 수행하므로 트리를 정리할 필요가 있습니다.',
+    'vi_VN': '__Warning! Mercurial does aggressive garbage collection and thus needs to prune your tree'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-a-option': {
@@ -97,7 +102,8 @@ exports.strings = {
     'fr_FR': 'L\'option -A n\'est pas nécessaire pour cette application, simplement commiter',
     'ru_RU': 'Опция -A не требуется для этого приложения, просто сделайте коммит.',
     'uk': 'Опція -A не потрібна для цього застосунку, можна просто комітити!',
-    'ko': '이 앱에선 -A 옵션은 필요 없습니다. 그냥 커밋하세요!'
+    'ko': '이 앱에선 -A 옵션은 필요 없습니다. 그냥 커밋하세요!',
+    'vi_VN': 'Tùy chọn -A không cần thiết khi sử dụng ứng dụng này, bạn cứ commit thôi!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-error-no-status': {
@@ -113,7 +119,8 @@ exports.strings = {
     'de_DE': 'Es gibt keinen Befehl status in dieser Anwendung, da es kein Staging von Dateien gibt. Probier stattdessen hg summary',
     'ru_RU': 'Команда status не поддерживается в этом приложении, так как здесь нет файлов. Попробуйте выполнить hg summary',
     'uk': 'Команда status не підтримується в цьому застосунку, так як немає стейджингу(staging) файлів. Натомість спробуй hg summary ',
-    'ko': '이 앱을 위한 상태 명령어는 없습니다. 왜냐하면 파일들의 스테이징이 없기 때문입니다. 대신 hg summary를 시도해보세요.'
+    'ko': '이 앱을 위한 상태 명령어는 없습니다. 왜냐하면 파일들의 스테이징이 없기 때문입니다. 대신 hg summary를 시도해보세요.',
+    'vi_VN': 'Câu lệnh status sẽ không sử dụng được do ứng dụng không lưu trạng thái file. Thử chạy lệnh này nhé: hg log -f '
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-error-need-option': {
@@ -129,7 +136,8 @@ exports.strings = {
     'de_DE': 'Ich benötige die Option {option} für diesen Befehl!',
     'ru_RU': 'Для этой команды требуется опция {option}',
     'uk': 'Для цієї команди потрібна опція {option}',
-    'ko': '나는 그 명령어를 위한 {option} 옵션이 필요합니다.'
+    'ko': '나는 그 명령어를 위한 {option} 옵션이 필요합니다.',
+    'vi_VN': 'Câu lệnh cần có tùy chọn {option}!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-error-log-no-follow': {
@@ -145,7 +153,8 @@ exports.strings = {
     'de_DE': 'hg log ohne -f wird aktuell nicht unterstützt, benutze bitte -f',
     'ru_RU': 'hg log без опции -f в настоящий момент не поддерживается, используйте -f',
     'uk': 'hg log без опції -f в данний момент не підтримується, використовуй -f',
-    'ko': '-f가 없는 hg log는 현재 지원되지 않습니다. -f를 사용하세요.'
+    'ko': '-f가 없는 hg log는 현재 지원되지 않습니다. -f를 사용하세요.',
+    'vi_VN': 'hg log không có tùy chọn -f chưa được hỗ trợ, thử thêm -f vào nhé'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-status-detached': {
@@ -161,7 +170,8 @@ exports.strings = {
     'fr_FR': 'head détaché !',
     'ru_RU': 'Отделенный HEAD',
     'uk': 'Відокремлений HEAD',
-    'ko': '분리된 HEAD!'
+    'ko': '분리된 HEAD!',
+    'vi_VN': 'Đã tách HEAD!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-status-onbranch': {
@@ -1437,7 +1447,8 @@ exports.strings = {
     'ja'   : '{key}の翻訳がまだ存在しません :( GitHubでの、翻訳の協力をお願いします m(_)m',
     'ru_RU': 'Перевода для {key} не создано :( Пожалуйста, предложи перевод на GitHub',
     'uk': 'Немає перекладу для {key} :( Будь-ласка, запропонуй переклад на Github',
-    'ko': '{key}를 위한 번역은 아직 존재하지 않습니다 :( 번역에 참여해주세요!'
+    'ko': '{key}를 위한 번역은 아직 존재하지 않습니다 :( 번역에 참여해주세요!',
+    'vi_VN': 'Bản dịch cho {key} chưa tồn tại :( Vui lòng truy cập github và cung cấp bản dịch!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'error-untranslated': {
@@ -1454,6 +1465,7 @@ exports.strings = {
     'ja'   : 'このダイアログ、またはテキストの翻訳がまだ存在しません :( GitHubでの、翻訳の協力をお願いします m(_)m',
     'ru_RU': 'Для этого сообщения нет перевода :( Пожалуйста, предложи перевод на GitHub',
     'uk': 'Для цього повідомлення ще немає перекладу :( Будь-ласка, запропонуй переклад на Github',
-    'ko': '이 대화창이나 텍스트는 아직 번역되지 않았습니다. :( 번역에 참여해주세요!'
+    'ko': '이 대화창이나 텍스트는 아직 번역되지 않았습니다. :( 번역에 참여해주세요!',
+    'vi_VN': 'Hộp thoại hoặc văn bản này chưa được dịch sang ngôn ngữ của bạn :( Hy vọng sẽ có người sớm bổ sung bản dịch!'
   }
 };
